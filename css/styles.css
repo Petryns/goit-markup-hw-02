@@ -1,0 +1,129 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: #ffffff;
+}
+
+.web-header {
+  color: #4d5ae5;
+}
+.header-information {
+  display: flex;
+  flex-direction: row;
+}
+.web-footer {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  color: #4d5ae5;
+}
+.logo-header {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
+  margin-left: 156px;
+  margin-top: 24px;
+  display: flex;
+  color: #2e2f42;
+}
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  color: #f4f4fd;
+  text-decoration: none;
+  margin-left: 156px;
+  margin-top: 24px;
+}
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.button-style {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 10px;
+  position: absolute;
+  width: 169px;
+  height: 56px;
+  left: 636px;
+  top: 428px;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.button-text-style {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+h3 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2e2f42;
+}
+
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+}
+.background-top {
+  background: #2e2f42;
+  position: absolute;
+  width: 1440px;
+  height: 600px;
+  left: 0px;
+  top: 72px;
+}
+.background-bottom {
+  position: absolute;
+  width: 1440px;
+  height: 312px;
+  left: 0px;
+  background: #2e2f42;
+}
+.text-bottom {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f4fd;
+  padding-right: 1020px;
+  padding-left: 156px;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+.team-bgd {
+  background: #f4f4fd;
+}
+button {
+  background: #f4f4fd;
+  color: #4d5ae5;
+}
+button :focus {
+  background: #404bbf;
+  color: #ffffff;
+}
