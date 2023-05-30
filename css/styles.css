@@ -14,7 +14,22 @@ body {
 .studio-header {
   color: var(--black-color);
 }
-.header-information {
+.list {
+  list-style-type: none;
+}
+.web-studio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--black-color);
+  text-decoration: none;
+}
+.link :hover {
+  color: #404bbf;
+}
+. link :focus {
+  color: #404bbf;
 }
 .web-footer {
   font-style: normal;
@@ -23,7 +38,10 @@ body {
   line-height: 21px;
   color: var(--sky-blue);
 }
-.logo-header .link {
+.link {
+  text-decoration: none;
+}
+.logo-header {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -34,9 +52,10 @@ body {
   margin-top: 24px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
+
   color: var(--sky-blue);
 }
+
 .logo-footer {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -97,10 +116,7 @@ p {
   line-height: 24px;
   color: var(--milk-color);
 }
-ul,
-ol {
-  list-style-type: none;
-}
+
 .team-bgd {
   background: var(--milk-color);
 }
