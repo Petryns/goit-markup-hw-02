@@ -11,8 +11,8 @@ body {
   --sky-blue: #4d5ae5;
   --main-color: #434455;
 }
-.web-header {
-  color: var(--sky-blue);
+.studio-header {
+  color: var(--black-color);
 }
 .header-information {
 }
