@@ -28,15 +28,15 @@ body {
 .link :hover {
   color: #404bbf;
 }
-. link :focus {
+.link :focus {
   color: #404bbf;
 }
-.web-footer {
+.studio-footer {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
-  color: var(--sky-blue);
+  color: #f4f4fd;
 }
 .link {
   text-decoration: none;
@@ -62,11 +62,14 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
-
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   color: var(--milk-color);
+  text-transform: uppercase;
   text-decoration: none;
   margin-left: 156px;
   margin-top: 24px;
+  color: var(--sky-blue);
 }
 .title {
   font-style: normal;
