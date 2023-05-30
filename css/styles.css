@@ -7,7 +7,7 @@ body {
   --black-color: #2e2f42;
   --white-color: #ffffff;
   --ocean-blue: #404bbf;
-  --milk-color: f4f4fd;
+  --milk-color: #f4f4fd;
   --sky-blue: #4d5ae5;
   --main-color: #434455;
 }
@@ -91,12 +91,10 @@ body {
   background-color: var(--black-color);
 }
 
-.button-style :hover {
+.button-style :hover :focus {
   background-color: #404bbf;
 }
-.button-style :focus {
-  background-color: #404bbf;
-}
+
 .background-bottom {
   background-color: var(--black-color);
 }
