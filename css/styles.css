@@ -81,18 +81,24 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
- line-height: 1.5;
- letter-spacing: 0.04em;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   background-color: var(--sky-blue);
   color: var(--white-color);
+}
 
 .background-top {
   background-color: var(--black-color);
 }
-.button-style :hover{ background-color: #404BBF;}
-.button-style :focus{background-color: #404BBF}
+
+.button-style :hover {
+  background-color: #404bbf;
+}
+.button-style :focus {
+  background-color: #404bbf;
+}
 .background-bottom {
-  background: var(--black-color);
+  background-color: var(--black-color);
 }
 .text-bottom {
   font-style: normal;
@@ -103,7 +109,7 @@ body {
 }
 
 .team-bgd {
-  background: var(--milk-color);
+  background-color: var(--milk-color);
 }
 button {
   font-family: "Roboto", sans-serif;
