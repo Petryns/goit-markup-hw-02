@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  background: #ffffff;
+  background-color: #ffffff;
   color: var(--main-color);
 }
 :root {
@@ -23,7 +23,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--black-color);
-  text-decoration: none;
 }
 .link :hover {
   color: #404bbf;
@@ -47,9 +46,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  text-decoration: none;
-  margin-left: 156px;
-  margin-top: 24px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -79,35 +75,22 @@ body {
   letter-spacing: 0.02em;
   color: var(--white-color);
 }
+
 .button-style {
-  background: var(--sky-blue);
-}
-.button-text-style {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-
+ line-height: 1.5;
+ letter-spacing: 0.04em;
+  background-color: var(--sky-blue);
   color: var(--white-color);
-}
-h3 {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  color: var();
-}
 
-p {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: var(--main-color);
-}
 .background-top {
-  background: var(--black-color);
+  background-color: var(--black-color);
 }
+.button-style :hover{ background-color: #404BBF;}
+.button-style :focus{background-color: #404BBF}
 .background-bottom {
   background: var(--black-color);
 }
@@ -148,6 +131,15 @@ button :focus {
   color: var(--black-color);
 }
 .paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+.addreses {
+  font-style: normal;
+}
+.mail {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
