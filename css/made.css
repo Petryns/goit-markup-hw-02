@@ -58,9 +58,10 @@ body {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1 07;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--white-color);
+  text-align: center;
 }
 
 .hero-btn {
@@ -68,10 +69,16 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.07;
+  line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
   color: var(--white-color);
   background-color: var(--sky-blue);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--ocean-blue);
 }
 
 /** -------------SECTION 2----------------- */
@@ -157,4 +164,18 @@ body {
 .port-btns-link:focus {
   color: var(--white-color);
   background-color: var(--ocean-blue);
+}
+
+.header-menu-link-port {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--black-color);
+}
+
+.header-menu-link-port:hover,
+.header-menu-link-port:focus {
+  color: var(--ocean-blue);
 }
