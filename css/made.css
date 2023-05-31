@@ -1,0 +1,148 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: var(--main-color);
+}
+
+:root {
+  --black-color: #2e2f42;
+  --white-color: #ffffff;
+  --ocean-blue: #404bbf;
+  --milk-color: #f4f4fd;
+  --sky-blue: #4d5ae5;
+  --main-color: #434455;
+}
+
+/* ----------------------------HEADER----------------------------- */
+
+.header-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1, 17;
+  letter-spacing: 0.03em;
+  color: var(--sky-blue);
+}
+
+.header-logo span {
+  color: var(--black-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.header-menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: var(--black-color);
+}
+
+.header-address-link {
+  color: var(--main-color);
+}
+/** -------------SECTION 1------------------ */
+
+.hero {
+  background-color: var(--black-color);
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1, 07;
+  letter-spacing: 0.02em;
+  color: var(--white-color);
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+  background-color: var(--sky-blue);
+}
+
+/** -------------SECTION 2----------------- */
+
+.benefits {
+}
+
+.benefits-list {
+}
+
+.benefits-item {
+}
+
+.benefits-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+  letter-spacing: 0.02em;
+  color: var(--black-color);
+}
+.benefits-text {
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/** --------------SECTION 3-------------- */
+
+.doing {
+}
+.doing-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--black-color);
+}
+.doing-list {
+}
+.list {
+}
+.doing-item {
+}
+
+/** ----------------SECTION 4-----------------  */
+
+.team {
+  background-color: var(--milk-color);
+}
+
+/**------------------FOOTER----------------- */
+
+.footer {
+  background-color: var(--black-color);
+}
+.footer-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1, 17;
+  letter-spacing: 0.03em;
+  color: var(--sky-blue);
+}
+
+.footer-logo span {
+  color: var(--milk-color);
+}
+
+.footer-text {
+  color: var(--milk-color);
+}
