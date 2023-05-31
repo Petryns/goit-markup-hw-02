@@ -16,16 +16,17 @@ body {
 /* ----------------------------HEADER----------------------------- */
 
 .header-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1, 17;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--sky-blue);
+  text-transform: uppercase;
 }
 
-.header-logo span {
+.header-logo-link {
   color: var(--black-color);
 }
 
@@ -57,17 +58,17 @@ body {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1, 07;
+  line-height: 1 07;
   letter-spacing: 0.02em;
   color: var(--white-color);
 }
 
 .hero-btn {
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white-color);
   background-color: var(--sky-blue);
@@ -78,13 +79,13 @@ body {
 .benefits-subtitle {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--black-color);
 }
 .benefits-text {
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -94,7 +95,7 @@ body {
 .doing-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 11;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -113,16 +114,17 @@ body {
   background-color: var(--black-color);
 }
 .footer-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1, 17;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--sky-blue);
+  text-transform: uppercase;
 }
 
-.footer-logo span {
+.footer-logo-link {
   color: var(--milk-color);
 }
 
@@ -133,16 +135,22 @@ body {
 /** ----------------PORTFOLIO SECTION LIST 1------------ */
 
 .port-btns-link {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--sky-blue);
   background-color: var(--milk-color);
   border: 1px solid #e7e9fc;
+  cursor: pointer;
 }
 
 .port-btns-link:hover {
+  color: var(--white-color);
+  background-color: var(--ocean-blue);
+}
+.port-btns-link:focus {
   color: var(--white-color);
   background-color: var(--ocean-blue);
 }
