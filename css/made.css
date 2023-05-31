@@ -48,7 +48,14 @@ body {
 
 .header-address-link {
   color: var(--main-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
+
+.header-address-link:hover {
+  color: var(--ocean-blue);
+}
+
 /** -------------SECTION 1------------------ */
 
 .hero {
