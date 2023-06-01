@@ -57,7 +57,8 @@ body {
   letter-spacing: 0.02em;
 }
 
-.header-address-link:hover {
+.header-address-link:hover,
+.header-address-link:focus {
   color: var(--ocean-blue);
 }
 
