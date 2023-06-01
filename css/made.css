@@ -46,6 +46,11 @@ body {
   color: var(--black-color);
 }
 
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: var(--ocean-blue);
+}
+
 .header-address-link {
   color: var(--main-color);
   line-height: 1.5;
@@ -54,6 +59,10 @@ body {
 
 .header-address-link:hover {
   color: var(--ocean-blue);
+}
+
+.addreses {
+  font-style: normal;
 }
 
 /** -------------SECTION 1------------------ */
